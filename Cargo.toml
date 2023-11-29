@@ -1,6 +1,6 @@
 [package]
 name = "math_captcha"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["baiyue"]
 description = "This is a mathematical CAPTCHA code generator written in Rust."

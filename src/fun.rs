@@ -175,7 +175,7 @@ pub fn draw_text(width: u32, height: u32, text: &str) -> String {
         let scale = rusttype::Scale::uniform(rng.gen_range(30.0..42.0));
         imageproc::drawing::draw_text_mut(&mut image, color, x, y, scale, &font, &c.to_string());
     }
-    // let _ = image.save("oo.jpg");
+    // let _ = image.save(format!("{}.png", text));
     to_base64_str(image)
 }
 
