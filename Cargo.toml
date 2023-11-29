@@ -6,7 +6,7 @@ authors = ["baiyue"]
 description = "This is a mathematical CAPTCHA code generator written in Rust."
 repository = "https://github.com/Baiyuetribe/math_captcha"
 license = "MIT"
-keywords = ["captcha", "math", "math_captcha", "math_captcha_generator"]
+keywords = ["captcha", "math", "math_captcha", "captcha_generator"]
 categories = ["Mathematics", "rust-patterns"]
 exclude = ["assets/*"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
