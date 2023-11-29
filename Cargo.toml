@@ -1,0 +1,19 @@
+[package]
+name = "math_captcha"
+version = "0.1.0"
+edition = "2021"
+authors = ["baiyue"]
+description = "This is a mathematical CAPTCHA code generator written in Rust."
+repository = "https://github.com/Baiyuetribe/math_captcha"
+license = "MIT"
+keywords = ["captcha", "math", "math_captcha", "math_captcha_generator"]
+categories = ["Mathematics", "rust-patterns"]
+exclude = ["assets/*"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.21.5"
+image = "0.24.7"
+imageproc = "0.23.0"
+rand = "0.8.5"
+rusttype = "0.9.3"
